@@ -1,2 +1,3 @@
-project("bmptool")
-executable("main", "bmptool/main.c")
+project('bmptool', 'c')
+
+executable('bmptool', 'bmptool/main.c')
